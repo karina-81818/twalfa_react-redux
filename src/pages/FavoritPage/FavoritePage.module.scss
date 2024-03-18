@@ -1,0 +1,21 @@
+.comment{
+    color: yellow;
+}
+h1{
+    color: yellow;
+}
+.listContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+}
+.listItem{
+    width: 190px;
+    margin: var(--spacing-medium);
+    border-radius: 3px;
+    background-color: var(--color-white);
+    color: white
+}

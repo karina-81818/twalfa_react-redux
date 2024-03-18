@@ -1,0 +1,27 @@
+.listContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+
+}
+.listItem{
+    width: 190px;
+    margin: var(--spacing-medium);
+    border-radius: 3px;
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+.characterImg{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 3px 3px 0 0;
+}
+.par{
+    text-align: center;
+    font-size: 15px;
+}

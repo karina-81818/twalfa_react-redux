@@ -1,0 +1,36 @@
+.listContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: black;
+
+}
+.listItem{
+    width: 190px;
+    margin: var(--spacing-medium);
+    border-radius: 3px;
+    background-color: var(--color-white);
+    cursor: pointer;
+}
+.listItem a{
+    text-decoration: none;
+    color: var(--color-black);
+    text-align: center;
+}
+.characterImg{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: 3px 3px 0 0;
+}
+.favorite{ 
+    width: 35px;
+    height: 35px;
+}
+.par{
+    text-align: center;
+    font-size: 15px;
+}
