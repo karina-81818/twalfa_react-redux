@@ -9,7 +9,6 @@ function FavoritePage (personFavorite) {
     
     useEffect(()=>{
         const arr = Object.entries(storeDate);
-       console.log(arr)
         if(arr.length){
             const res = arr.map(item => {
                 return{

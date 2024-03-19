@@ -5,7 +5,6 @@ import { getLocalStorage } from "../../utils/localStorage";
 const initialState = {};
 
 const characterReduser = (state = initialState, action) => {
-    console.log('store character', action)
     
     switch(action.type){
         case ADD_CARDSLIST:

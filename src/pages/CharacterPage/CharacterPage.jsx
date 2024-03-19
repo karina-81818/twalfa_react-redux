@@ -38,7 +38,6 @@ function CharacterPage({setErrorApi}) {
     }
     const deleteItem=(id)=>{
         const updateList = character.filter((item)=> item.id !== id)
-        console.log(updateList)
         setСharacter(updateList)
         dispatch(removeCard(updateList))
     }
